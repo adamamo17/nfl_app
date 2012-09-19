@@ -7,6 +7,8 @@ NflApp::Application.routes.draw do
 
   get "basic_pages/contact"
 
+  get "basic_pages/ari"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

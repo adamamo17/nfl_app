@@ -10,4 +10,7 @@ class BasicPagesController < ApplicationController
 
   def contact
   end
+
+  def ari
+  end
 end

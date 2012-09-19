@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "Static pages" do
+describe "Basic pages" do
 
   describe "Home page" do
 
@@ -12,7 +12,12 @@ describe "Static pages" do
     it "should have the title 'Home'" do
       visit '/basic_pages/home'
       page.should have_selector('title',
-                                :text => "Ruby on Rails Tutorial Sample App | Home")
+                                :text => "NFL Rails App")
+    end
+
+    it "should not have a custom page title" do
+      visit '/basic_pages/home'
+      page.should_not have_selector('title', :text => '| Home')
     end
   end
 
@@ -26,7 +31,7 @@ describe "Static pages" do
     it "should have the title 'Help'" do
       visit '/basic_pages/help'
       page.should have_selector('title',
-                                :text => "Ruby on Rails Tutorial Sample App | Help")
+                                :text => "NFL Rails App | Help")
     end
   end
 
@@ -40,7 +45,7 @@ describe "Static pages" do
     it "should have the title 'About Us'" do
       visit '/basic_pages/about'
       page.should have_selector('title',
-                                :text => "Ruby on Rails Tutorial Sample App | About Us")
+                                :text => "NFL Rails App | About Us")
     end
   end
 
@@ -54,7 +59,23 @@ describe "Static pages" do
     it  "should have the title 'Contact'" do
       visit '/basic_pages/contact'
       page.should have_selector('title',
-                                :text => "Ruby on Rails Tutorial Sample App | Contact")
+                                :text => "NFL Rails App | Contact")
     end
   end
+
+  describe "Arizona Cardinals" do
+
+    it "should have the h1 'NFC West'" do
+      visit '/basic_pages/ari'
+      page.should have_selector('h1', :text => 'NFC West')
+    end
+
+    it "should have the title 'Arizona Cardinals'" do
+      visit '/basic_pages/ari'
+      page.should have_selector('title',
+                                :text => "NFL Rails App | Arizona Cardinals")
+    end
+
+  end
+
 end
