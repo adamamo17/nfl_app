@@ -1,13 +1,12 @@
 NflApp::Application.routes.draw do
-  get "basic_pages/home"
 
-  get "basic_pages/help"
+  root              to: 'basic_pages#home'
+  match '/help',    to: 'basic_pages#help'
+  match '/about',   to: 'basic_pages#about'
+  match '/contact', to: 'basic_pages#contact'
+  match '/ari',     to: 'basic_pages#ari'
 
-  get "basic_pages/about"
-
-  get "basic_pages/contact"
-
-  get "basic_pages/ari"
+  match '/signup',  to: 'users#new'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

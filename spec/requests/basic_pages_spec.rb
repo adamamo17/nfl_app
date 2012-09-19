@@ -1,81 +1,44 @@
 require 'spec_helper'
 
-describe "Basic pages" do
+describe "Static pages" do
+
+  subject { page }
 
   describe "Home page" do
+    before { visit root_path }
 
-    it "should have the h1 'Sample App'" do
-      visit '/basic_pages/home'
-      page.should have_selector('h1', :text => 'Sample App')
-    end
-
-    it "should have the title 'Home'" do
-      visit '/basic_pages/home'
-      page.should have_selector('title',
-                                :text => "NFL Rails App")
-    end
-
-    it "should not have a custom page title" do
-      visit '/basic_pages/home'
-      page.should_not have_selector('title', :text => '| Home')
-    end
+    it { should have_selector('h1',    text: 'NFL Rails') }
+    it { should have_selector('title', text: full_title('')) }
+    it { should_not have_selector 'title', text: '| Home' }
   end
 
   describe "Help page" do
+    before { visit help_path }
 
-    it "should have the h1 'Help'" do
-      visit '/basic_pages/help'
-      page.should have_selector('h1', :text => 'Help')
-    end
-
-    it "should have the title 'Help'" do
-      visit '/basic_pages/help'
-      page.should have_selector('title',
-                                :text => "NFL Rails App | Help")
-    end
+    it { should have_selector('h1',    text: 'Help') }
+    it { should have_selector('title', text: full_title('Help')) }
   end
 
   describe "About page" do
+    before { visit about_path }
 
-    it "should have the h1 'About Us'" do
-      visit '/basic_pages/about'
-      page.should have_selector('h1', :text => 'About Us')
-    end
-
-    it "should have the title 'About Us'" do
-      visit '/basic_pages/about'
-      page.should have_selector('title',
-                                :text => "NFL Rails App | About Us")
-    end
+    it { should have_selector('h1',    text: 'About') }
+    it { should have_selector('title', text: full_title('About Us')) }
   end
 
   describe "Contact page" do
+    before { visit contact_path }
 
-    it "should have the h1 'Contact'" do
-      visit '/basic_pages/contact'
-      page.should have_selector('h1', :text => 'Contact')
-    end
-
-    it  "should have the title 'Contact'" do
-      visit '/basic_pages/contact'
-      page.should have_selector('title',
-                                :text => "NFL Rails App | Contact")
-    end
+    it { should have_selector('h1',    text: 'Contact') }
+    it { should have_selector('title', text: full_title('Contact')) }
   end
 
   describe "Arizona Cardinals" do
+    before { visit ari_path }
 
-    it "should have the h1 'NFC West'" do
-      visit '/basic_pages/ari'
-      page.should have_selector('h1', :text => 'NFC West')
-    end
 
-    it "should have the title 'Arizona Cardinals'" do
-      visit '/basic_pages/ari'
-      page.should have_selector('title',
-                                :text => "NFL Rails App | Arizona Cardinals")
-    end
-
+    it { should have_selector('h1',     text:'Arizona Cardinals') }
+    it { should have_selector('title',  text: full_title('Arizona Cardinals'))     }
   end
 
 end
