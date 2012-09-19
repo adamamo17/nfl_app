@@ -3,6 +3,10 @@ NflApp::Application.routes.draw do
 
   get "basic_pages/help"
 
+  get "basic_pages/about"
+
+  get "basic_pages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
