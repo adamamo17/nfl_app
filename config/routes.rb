@@ -6,7 +6,7 @@ NflApp::Application.routes.draw do
   match '/contact', to: 'basic_pages#contact'
   match '/ari',     to: 'basic_pages#ari'
 
-  match '/signup',  to: 'users#new'
+  match '/signup',  to: 'coaches#new'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
