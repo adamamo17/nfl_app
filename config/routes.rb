@@ -1,5 +1,7 @@
 NflApp::Application.routes.draw do
 
+  get "users/new"
+
   root              to: 'basic_pages#home'
   match '/help',    to: 'basic_pages#help'
   match '/about',   to: 'basic_pages#about'

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="04fdf13d-ceaf-4562-bd23-dcc45bf0f034" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/coach.rb" afterPath="$PROJECT_DIR$/app/models/coach.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/coach_spec.rb" afterPath="$PROJECT_DIR$/spec/models/coach_spec.rb" />
     </list>
     <ignored path="nfl_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,34 +32,25 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="17" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
+            <state line="20" column="17" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/coaches/new.html.erb">
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="54" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+            <state line="24" column="3" selection-start="792" selection-end="792" vertical-scroll-proportion="0.7741935">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.log" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/development.log">
+      <file leaf-file-name="user_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3226" column="28" selection-start="129952" selection-end="129952" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coach_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/coach_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="28" selection-start="2796" selection-end="2796" vertical-scroll-proportion="0.0">
+            <state line="27" column="41" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,18 +77,7 @@
       <file leaf-file-name="contact.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/basic_pages/contact.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1348157545000" expanded="true" signature="52:293" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coach.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/coach.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="363" selection-end="363" vertical-scroll-proportion="0.45348838">
+            <state line="9" column="17" selection-start="295" selection-end="295" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -112,27 +96,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-        <option value="$PROJECT_DIR$/spec/requests/basic_pages_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/basic_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/basic_pages/help.html.erb" />
         <option value="$PROJECT_DIR$/app/views/basic_pages/ari.html.erb" />
         <option value="$PROJECT_DIR$/app/views/basic_pages/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/basic_pages/contact.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/coaches/new.html.erb" />
         <option value="$PROJECT_DIR$/log/development.log" />
         <option value="$PROJECT_DIR$/db/migrate/20120921093526_add_index_to_coaches_name.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/coach.rb" />
         <option value="$PROJECT_DIR$/spec/models/coach_spec.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20120925050735_add_index_to_users_email.rb" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
+    <option name="x" value="124" />
     <option name="y" value="22" />
     <option name="width" value="1110" />
     <option name="height" value="589" />
@@ -243,20 +227,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nfl_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nfl_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -663,7 +633,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="112" y="22" width="1110" height="589" extended-state="0" />
+    <frame x="124" y="22" width="1110" height="589" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -739,54 +709,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/basic_pages/ari.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="25" selection-start="1710" selection-end="1710" vertical-scroll-proportion="-66.875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/basic_pages/help.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.2297593" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/basic_pages/about.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/basic_pages/contact.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1348157545000" expanded="true" signature="52:293" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/development.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3226" column="28" selection-start="129952" selection-end="129952" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120921093526_add_index_to_coaches_name.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="66" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -801,9 +723,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120921051836_create_coaches.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/coach.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="363" selection-end="363" vertical-scroll-proportion="0.45348838">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/basic_pages/contact.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="295" selection-end="295" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/coach_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="28" selection-start="2796" selection-end="2796" vertical-scroll-proportion="3.5891647">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/development.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3226" column="28" selection-start="129952" selection-end="129952" vertical-scroll-proportion="0.37209302">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/coaches/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="54" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+        <state line="2" column="54" selection-start="98" selection-end="98" vertical-scroll-proportion="0.06802721">
           <folding />
         </state>
       </provider>
@@ -813,6 +768,27 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="17" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120921093526_add_index_to_coaches_name.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="66" selection-start="121" selection-end="121" vertical-scroll-proportion="0.17814727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120925050735_add_index_to_users_email.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="118" selection-end="118" vertical-scroll-proportion="0.13544019">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20120921094011_add_password_digest_to_coaches.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -820,21 +796,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120921051836_create_coaches.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120925051013_add_password_digest_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/coach_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="28" selection-start="2796" selection-end="2796" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/coach.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="363" selection-end="363" vertical-scroll-proportion="0.45348838">
+        <state line="27" column="41" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="3" selection-start="792" selection-end="792" vertical-scroll-proportion="0.7741935">
           <folding />
         </state>
       </provider>
