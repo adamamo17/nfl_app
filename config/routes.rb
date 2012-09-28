@@ -2,6 +2,7 @@ NflApp::Application.routes.draw do
   resources :users
   resources :coaches
   resources :teams
+  resources :sessions, only: [:new, :create, :destroy]
 
   root              to: 'basic_pages#home'
   match '/help',    to: 'basic_pages#help'
@@ -10,6 +11,8 @@ NflApp::Application.routes.draw do
   match '/ari',     to: 'basic_pages#ari'
 
   match '/signup',  to: 'users#new'
+  match '/signin',  to: 'sessions#new'
+  match '/signout', to: 'sessions#destroy', via: :delete
 
   match '/teams',   to: 'teams#index'
 
