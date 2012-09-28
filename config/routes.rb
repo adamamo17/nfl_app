@@ -1,8 +1,7 @@
 NflApp::Application.routes.draw do
-
-  get "teams/new"
-
-  get "users/new"
+  resources :users
+  resources :coaches
+  resources :teams
 
   root              to: 'basic_pages#home'
   match '/help',    to: 'basic_pages#help'

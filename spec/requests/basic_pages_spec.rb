@@ -33,12 +33,4 @@ describe "Static pages" do
     it { should have_selector('title', text: full_title('Contact')) }
   end
 
-  describe "Arizona Cardinals" do
-    before { visit ari_path }
-
-
-    it { should have_selector('h1',     text:'Arizona Cardinals') }
-    it { should have_selector('title',  text: full_title('Arizona Cardinals'))     }
-  end
-
 end

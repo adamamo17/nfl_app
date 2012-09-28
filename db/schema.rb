@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120925055925) do
+ActiveRecord::Schema.define(:version => 20120927112232) do
 
   create_table "coaches", :force => true do |t|
     t.string   "name"
@@ -28,6 +28,8 @@ ActiveRecord::Schema.define(:version => 20120925055925) do
     t.string   "abbrev"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "url"
+    t.string   "division"
   end
 
   create_table "users", :force => true do |t|

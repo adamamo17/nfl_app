@@ -8,3 +8,5 @@ class CreateTeams < ActiveRecord::Migration
     end
   end
 end
+execute "ALTER TABLE users ADD PRIMARY KEY (abbrev);"
+

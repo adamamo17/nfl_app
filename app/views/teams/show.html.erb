@@ -1,0 +1,22 @@
+<div class="center hero-unit">
+  <% provide(:title, @team.team) %>
+
+  <h1>
+    <%= @team.team %>
+  </h1>
+  <h2>
+    The <a href= <%= @team.url %> ><%= @team.team %></a>
+    are a team in the National Football League.  They play in the <%= @team.division %> Division.
+    They are coached by Ken Whisenhunt.
+  </h2>
+</div>
+
+
+<%= link_to image_tag((@team.abbrev.to_s + ".png"), alt: "NFL"), @team.url %>
+
+
+
+
+<h2>
+  Most recent game score: <%= get_score @team %>
+</h2>
