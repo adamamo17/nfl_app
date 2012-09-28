@@ -11,6 +11,8 @@ NflApp::Application.routes.draw do
 
   match '/signup',  to: 'users#new'
 
+  match '/teams',   to: 'teams#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

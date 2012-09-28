@@ -5,4 +5,11 @@ FactoryGirl.define do
     password "foobar"
     password_confirmation "foobar"
   end
+
+  factory :team do
+    team    "CMU Tartans"
+    abbrev  "cmu"
+    url     "http://www.cmu.edu"
+    division "UAA Div III"
+  end
 end

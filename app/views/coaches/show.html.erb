@@ -1,1 +1,13 @@
-<%= @coach.name %>, <%= @coach.team %>
+<% provide(:title, @coach.name) %>
+<div class="row">
+  <aside class="span4">
+    <section>
+      <h1>
+  <%= @coach.name %>
+      </h1>
+        <h2>
+            <%= @coach.name %> is the current coach of the <%= @coach.team %>.
+        </h2>
+    </section>
+  </aside>
+</div>
