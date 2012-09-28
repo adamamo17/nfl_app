@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04fdf13d-ceaf-4562-bd23-dcc45bf0f034" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/teams/index.html.erb" afterPath="$PROJECT_DIR$/app/views/teams/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="nfl_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="2" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
+            <state line="30" column="3" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.44117647">
               <folding />
             </state>
           </provider>
@@ -106,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/teams/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="62" selection-start="306" selection-end="306" vertical-scroll-proportion="0.234375">
+            <state line="7" column="62" selection-start="306" selection-end="306" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -141,15 +142,15 @@
         <option value="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20120925055349_create_teams.rb" />
         <option value="$PROJECT_DIR$/app/views/teams/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="74" />
+    <option name="x" value="152" />
+    <option name="y" value="22" />
     <option name="width" value="1110" />
     <option name="height" value="589" />
   </component>
@@ -833,7 +834,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="74" width="1110" height="589" extended-state="0" />
+    <frame x="152" y="22" width="1110" height="589" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -993,13 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="2" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20120925055349_create_teams.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
@@ -1016,7 +1010,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/teams/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="62" selection-start="306" selection-end="306" vertical-scroll-proportion="0.234375">
+        <state line="7" column="62" selection-start="306" selection-end="306" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="3" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.44117647">
           <folding />
         </state>
       </provider>
