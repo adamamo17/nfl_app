@@ -8,10 +8,17 @@
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #  password_digest :string(255)
+#  remember_token  :string(255)
+#  coach           :boolean          default(FALSE)
+#  team            :string(255)
+#  teamname        :string(255)
+#  team_id         :string(255)
 #
 
 class User < ActiveRecord::Base
-  attr_accessible :name, :email, :password, :password_confirmation, :team
+  belongs_to :team
+
+  attr_accessible :name, :email, :password, :password_confirmation, :team_id, :coach
   has_secure_password
 
   before_save { |user| user.email = email.downcase }

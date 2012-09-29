@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120928231251) do
+ActiveRecord::Schema.define(:version => 20120929011548) do
 
   create_table "coaches", :force => true do |t|
     t.string   "name"
@@ -41,6 +41,8 @@ ActiveRecord::Schema.define(:version => 20120928231251) do
     t.string   "remember_token"
     t.boolean  "coach",           :default => false
     t.string   "team"
+    t.string   "teamname"
+    t.string   "team_id"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

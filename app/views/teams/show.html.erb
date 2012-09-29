@@ -7,7 +7,8 @@
   <h2>
     The <a href= <%= @team.url %> ><%= @team.team %></a>
     are a team in the National Football League.  They play in the <%= @team.division %> Division.
-    They are coached by Ken Whisenhunt.
+  <%= if @team.user != nil; "This team is coached by " + @team.user.name; end %>
+
   </h2>
   <h2>
     Click <a href=/teams>here</a> to see a full list of all NFL teams.

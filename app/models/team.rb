@@ -12,6 +12,8 @@
 #
 
 class Team < ActiveRecord::Base
+  has_one :user
+
   self.primary_key = :abbrev
   attr_accessible :abbrev, :team, :url, :division
 
